@@ -1,0 +1,44 @@
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+html, body{
+
+  background-color: #DAF7A6;
+}
+
+h1 {
+
+  color:darkslategray;
+  text-align: center;
+  font-size: 50px;
+  margin: 30px;
+  justify-content: center;
+
+  
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  flex-direction: column;
+}
+
+.contenedor-principal {
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
